@@ -1,0 +1,676 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B5299B5921F9BE1500A75744 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5299B5821F9BE1500A75744 /* Alamofire.framework */; };
+		B5305ABC21F68B4100DBAAC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5305ABB21F68B4100DBAAC9 /* AppDelegate.swift */; };
+		B5305ABE21F68B4100DBAAC9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5305ABD21F68B4100DBAAC9 /* ViewController.swift */; };
+		B5305AC121F68B4100DBAAC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5305ABF21F68B4100DBAAC9 /* Main.storyboard */; };
+		B5305AC321F68B4200DBAAC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5305AC221F68B4200DBAAC9 /* Assets.xcassets */; };
+		B5305AC621F68B4200DBAAC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5305AC421F68B4200DBAAC9 /* LaunchScreen.storyboard */; };
+		B5305AD121F68B4200DBAAC9 /* HumpbackWhaleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5305AD021F68B4200DBAAC9 /* HumpbackWhaleTests.swift */; };
+		B5305ADC21F68B4200DBAAC9 /* HumpbackWhaleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5305ADB21F68B4200DBAAC9 /* HumpbackWhaleUITests.swift */; };
+		B5305AED21F6BC8D00DBAAC9 /* UIImage+PixelBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5305AEC21F6BC8D00DBAAC9 /* UIImage+PixelBuffer.swift */; };
+		D35A2AD5F3CFFD831F0846F7 /* Pods_HumpbackWhale.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E4D2F30AA37E86D7AF6E7D8 /* Pods_HumpbackWhale.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B5305ACD21F68B4200DBAAC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5305AB021F68B4100DBAAC9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5305AB721F68B4100DBAAC9;
+			remoteInfo = HumpbackWhale;
+		};
+		B5305AD821F68B4200DBAAC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5305AB021F68B4100DBAAC9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5305AB721F68B4100DBAAC9;
+			remoteInfo = HumpbackWhale;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6E4D2F30AA37E86D7AF6E7D8 /* Pods_HumpbackWhale.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HumpbackWhale.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E31969C61C73DB14D6BD64A /* Pods-HumpbackWhale.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HumpbackWhale.release.xcconfig"; path = "Pods/Target Support Files/Pods-HumpbackWhale/Pods-HumpbackWhale.release.xcconfig"; sourceTree = "<group>"; };
+		B5299B5821F9BE1500A75744 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5305AB821F68B4100DBAAC9 /* HumpbackWhale.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HumpbackWhale.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5305ABB21F68B4100DBAAC9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B5305ABD21F68B4100DBAAC9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B5305AC021F68B4100DBAAC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B5305AC221F68B4200DBAAC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B5305AC521F68B4200DBAAC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B5305AC721F68B4200DBAAC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5305ACC21F68B4200DBAAC9 /* HumpbackWhaleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HumpbackWhaleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5305AD021F68B4200DBAAC9 /* HumpbackWhaleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HumpbackWhaleTests.swift; sourceTree = "<group>"; };
+		B5305AD221F68B4200DBAAC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5305AD721F68B4200DBAAC9 /* HumpbackWhaleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HumpbackWhaleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5305ADB21F68B4200DBAAC9 /* HumpbackWhaleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HumpbackWhaleUITests.swift; sourceTree = "<group>"; };
+		B5305ADD21F68B4200DBAAC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5305AEC21F6BC8D00DBAAC9 /* UIImage+PixelBuffer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+PixelBuffer.swift"; sourceTree = "<group>"; };
+		DB24A46D4A53CACE0E5C5923 /* Pods-HumpbackWhale.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HumpbackWhale.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HumpbackWhale/Pods-HumpbackWhale.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5305AB521F68B4100DBAAC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5299B5921F9BE1500A75744 /* Alamofire.framework in Frameworks */,
+				D35A2AD5F3CFFD831F0846F7 /* Pods_HumpbackWhale.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5305AC921F68B4200DBAAC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5305AD421F68B4200DBAAC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F28857428AD4314415115DE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DB24A46D4A53CACE0E5C5923 /* Pods-HumpbackWhale.debug.xcconfig */,
+				7E31969C61C73DB14D6BD64A /* Pods-HumpbackWhale.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B5299B5721F9BE1500A75744 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B5299B5821F9BE1500A75744 /* Alamofire.framework */,
+				6E4D2F30AA37E86D7AF6E7D8 /* Pods_HumpbackWhale.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B5305AAF21F68B4100DBAAC9 = {
+			isa = PBXGroup;
+			children = (
+				B5305ABA21F68B4100DBAAC9 /* HumpbackWhale */,
+				B5305ACF21F68B4200DBAAC9 /* HumpbackWhaleTests */,
+				B5305ADA21F68B4200DBAAC9 /* HumpbackWhaleUITests */,
+				B5305AB921F68B4100DBAAC9 /* Products */,
+				B5299B5721F9BE1500A75744 /* Frameworks */,
+				9F28857428AD4314415115DE /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		B5305AB921F68B4100DBAAC9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5305AB821F68B4100DBAAC9 /* HumpbackWhale.app */,
+				B5305ACC21F68B4200DBAAC9 /* HumpbackWhaleTests.xctest */,
+				B5305AD721F68B4200DBAAC9 /* HumpbackWhaleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5305ABA21F68B4100DBAAC9 /* HumpbackWhale */ = {
+			isa = PBXGroup;
+			children = (
+				B5305AEC21F6BC8D00DBAAC9 /* UIImage+PixelBuffer.swift */,
+				B5305ABB21F68B4100DBAAC9 /* AppDelegate.swift */,
+				B5305ABD21F68B4100DBAAC9 /* ViewController.swift */,
+				B5305ABF21F68B4100DBAAC9 /* Main.storyboard */,
+				B5305AC221F68B4200DBAAC9 /* Assets.xcassets */,
+				B5305AC421F68B4200DBAAC9 /* LaunchScreen.storyboard */,
+				B5305AC721F68B4200DBAAC9 /* Info.plist */,
+			);
+			path = HumpbackWhale;
+			sourceTree = "<group>";
+		};
+		B5305ACF21F68B4200DBAAC9 /* HumpbackWhaleTests */ = {
+			isa = PBXGroup;
+			children = (
+				B5305AD021F68B4200DBAAC9 /* HumpbackWhaleTests.swift */,
+				B5305AD221F68B4200DBAAC9 /* Info.plist */,
+			);
+			path = HumpbackWhaleTests;
+			sourceTree = "<group>";
+		};
+		B5305ADA21F68B4200DBAAC9 /* HumpbackWhaleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B5305ADB21F68B4200DBAAC9 /* HumpbackWhaleUITests.swift */,
+				B5305ADD21F68B4200DBAAC9 /* Info.plist */,
+			);
+			path = HumpbackWhaleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B5305AB721F68B4100DBAAC9 /* HumpbackWhale */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5305AE021F68B4200DBAAC9 /* Build configuration list for PBXNativeTarget "HumpbackWhale" */;
+			buildPhases = (
+				20A83DC6F6CBF4BAB2B7808E /* [CP] Check Pods Manifest.lock */,
+				B5305AB421F68B4100DBAAC9 /* Sources */,
+				B5305AB521F68B4100DBAAC9 /* Frameworks */,
+				B5305AB621F68B4100DBAAC9 /* Resources */,
+				08E88D742E9B88BE07EB0AAC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HumpbackWhale;
+			productName = HumpbackWhale;
+			productReference = B5305AB821F68B4100DBAAC9 /* HumpbackWhale.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B5305ACB21F68B4200DBAAC9 /* HumpbackWhaleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5305AE321F68B4200DBAAC9 /* Build configuration list for PBXNativeTarget "HumpbackWhaleTests" */;
+			buildPhases = (
+				B5305AC821F68B4200DBAAC9 /* Sources */,
+				B5305AC921F68B4200DBAAC9 /* Frameworks */,
+				B5305ACA21F68B4200DBAAC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5305ACE21F68B4200DBAAC9 /* PBXTargetDependency */,
+			);
+			name = HumpbackWhaleTests;
+			productName = HumpbackWhaleTests;
+			productReference = B5305ACC21F68B4200DBAAC9 /* HumpbackWhaleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B5305AD621F68B4200DBAAC9 /* HumpbackWhaleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5305AE621F68B4200DBAAC9 /* Build configuration list for PBXNativeTarget "HumpbackWhaleUITests" */;
+			buildPhases = (
+				B5305AD321F68B4200DBAAC9 /* Sources */,
+				B5305AD421F68B4200DBAAC9 /* Frameworks */,
+				B5305AD521F68B4200DBAAC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5305AD921F68B4200DBAAC9 /* PBXTargetDependency */,
+			);
+			name = HumpbackWhaleUITests;
+			productName = HumpbackWhaleUITests;
+			productReference = B5305AD721F68B4200DBAAC9 /* HumpbackWhaleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5305AB021F68B4100DBAAC9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Emma;
+				TargetAttributes = {
+					B5305AB721F68B4100DBAAC9 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					B5305ACB21F68B4200DBAAC9 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = B5305AB721F68B4100DBAAC9;
+					};
+					B5305AD621F68B4200DBAAC9 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = B5305AB721F68B4100DBAAC9;
+					};
+				};
+			};
+			buildConfigurationList = B5305AB321F68B4100DBAAC9 /* Build configuration list for PBXProject "HumpbackWhale" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B5305AAF21F68B4100DBAAC9;
+			productRefGroup = B5305AB921F68B4100DBAAC9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5305AB721F68B4100DBAAC9 /* HumpbackWhale */,
+				B5305ACB21F68B4200DBAAC9 /* HumpbackWhaleTests */,
+				B5305AD621F68B4200DBAAC9 /* HumpbackWhaleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B5305AB621F68B4100DBAAC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5305AC621F68B4200DBAAC9 /* LaunchScreen.storyboard in Resources */,
+				B5305AC321F68B4200DBAAC9 /* Assets.xcassets in Resources */,
+				B5305AC121F68B4100DBAAC9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5305ACA21F68B4200DBAAC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5305AD521F68B4200DBAAC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		08E88D742E9B88BE07EB0AAC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HumpbackWhale/Pods-HumpbackWhale-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HumpbackWhale/Pods-HumpbackWhale-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		20A83DC6F6CBF4BAB2B7808E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HumpbackWhale-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5305AB421F68B4100DBAAC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5305AED21F6BC8D00DBAAC9 /* UIImage+PixelBuffer.swift in Sources */,
+				B5305ABE21F68B4100DBAAC9 /* ViewController.swift in Sources */,
+				B5305ABC21F68B4100DBAAC9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5305AC821F68B4200DBAAC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5305AD121F68B4200DBAAC9 /* HumpbackWhaleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5305AD321F68B4200DBAAC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5305ADC21F68B4200DBAAC9 /* HumpbackWhaleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B5305ACE21F68B4200DBAAC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5305AB721F68B4100DBAAC9 /* HumpbackWhale */;
+			targetProxy = B5305ACD21F68B4200DBAAC9 /* PBXContainerItemProxy */;
+		};
+		B5305AD921F68B4200DBAAC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5305AB721F68B4100DBAAC9 /* HumpbackWhale */;
+			targetProxy = B5305AD821F68B4200DBAAC9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B5305ABF21F68B4100DBAAC9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5305AC021F68B4100DBAAC9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B5305AC421F68B4200DBAAC9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5305AC521F68B4200DBAAC9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B5305ADE21F68B4200DBAAC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B5305ADF21F68B4200DBAAC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B5305AE121F68B4200DBAAC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB24A46D4A53CACE0E5C5923 /* Pods-HumpbackWhale.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JLTBHHFS2G;
+				INFOPLIST_FILE = HumpbackWhale/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = moirai.HumpbackWhale;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B5305AE221F68B4200DBAAC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E31969C61C73DB14D6BD64A /* Pods-HumpbackWhale.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JLTBHHFS2G;
+				INFOPLIST_FILE = HumpbackWhale/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = moirai.HumpbackWhale;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B5305AE421F68B4200DBAAC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JLTBHHFS2G;
+				INFOPLIST_FILE = HumpbackWhaleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = moirai.HumpbackWhaleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HumpbackWhale.app/HumpbackWhale";
+			};
+			name = Debug;
+		};
+		B5305AE521F68B4200DBAAC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JLTBHHFS2G;
+				INFOPLIST_FILE = HumpbackWhaleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = moirai.HumpbackWhaleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HumpbackWhale.app/HumpbackWhale";
+			};
+			name = Release;
+		};
+		B5305AE721F68B4200DBAAC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JLTBHHFS2G;
+				INFOPLIST_FILE = HumpbackWhaleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = moirai.HumpbackWhaleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HumpbackWhale;
+			};
+			name = Debug;
+		};
+		B5305AE821F68B4200DBAAC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JLTBHHFS2G;
+				INFOPLIST_FILE = HumpbackWhaleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = moirai.HumpbackWhaleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HumpbackWhale;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5305AB321F68B4100DBAAC9 /* Build configuration list for PBXProject "HumpbackWhale" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5305ADE21F68B4200DBAAC9 /* Debug */,
+				B5305ADF21F68B4200DBAAC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5305AE021F68B4200DBAAC9 /* Build configuration list for PBXNativeTarget "HumpbackWhale" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5305AE121F68B4200DBAAC9 /* Debug */,
+				B5305AE221F68B4200DBAAC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5305AE321F68B4200DBAAC9 /* Build configuration list for PBXNativeTarget "HumpbackWhaleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5305AE421F68B4200DBAAC9 /* Debug */,
+				B5305AE521F68B4200DBAAC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5305AE621F68B4200DBAAC9 /* Build configuration list for PBXNativeTarget "HumpbackWhaleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5305AE721F68B4200DBAAC9 /* Debug */,
+				B5305AE821F68B4200DBAAC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B5305AB021F68B4100DBAAC9 /* Project object */;
+}
